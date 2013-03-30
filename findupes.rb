@@ -1,8 +1,5 @@
 #!/usr/bin/env ruby
 
-# puts Digest::MD5.hexdigest("test")
-# puts Digest::MD5.hexdigest(File.read($0))
-
 class DuplicateFinder
 
   require "digest/md5"
