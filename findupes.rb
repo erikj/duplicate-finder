@@ -45,5 +45,4 @@ class DuplicateFinder
 
 end
 
-
-DuplicateFinder.new(ARGV).detect
+DuplicateFinder.new(ARGV).detect if $0 == __FILE__
